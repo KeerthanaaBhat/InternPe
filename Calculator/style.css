@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgba(220, 215, 215, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color:#121313;
+    padding:16px;
+    border-radius: 25px;
+    width: 350px;
+}
+
+.calculator form input{
+    margin:10px ;  
+    border: 0;
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+    outline:0;
+    border-radius: 15px;
+    background-color:transparent ;
+    box-shadow: -8px -8px 15px rgba(203, 202, 202, 0.216),5px 5px 15px rgba(48, 44, 44, 0.146);
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(237, 232, 232);
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+form .display input{
+    height: 68px;
+    flex: 1;
+    text-align: right;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+form input.color{
+    
+    background-color: rgb(95, 183, 7);
+    box-shadow: -8px -8px 15px rgba(203, 202, 202, 0.216),5px 5px 15px rgba(48, 44, 44, 0.146);
+    font-weight: 600;
+}
+
+input[type="button"]:active {
+    background-color: gainsboro;
+    color: #121313;
+}
+
+input[value="DE"]:active {
+    background-color: rgb(12, 11, 11);
+    color: #d5dddd;
+}
+input[value="AC"]:active {
+    background-color: rgb(12, 11, 11);
+    color: #d5dddd;
+}
