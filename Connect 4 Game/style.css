@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+#board {
+    height: 440px;
+    width: 490px;
+    background-color: #416cea;
+    border: 10px solid #3a61d6;
+    
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid #3b62d7;
+}
+
+.red-piece {
+    background-color: rgb(255, 0, 0);
+}
+
+.yellow-piece {
+    background-color: rgb(255, 255, 39);
+}
